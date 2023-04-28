@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<name>Zero_Chaos</name>
+		<email>sidhayn@gmail.com</email>
+	</maintainer>
+	<maintainer type="person">
+		<name>Lonyelon</name>
+		<email>sergio@lony.xyz</email>
+	</maintainer>
+<use>
+	<flag name="airspy">support airspy</flag>
+	<flag name="airspyhf">support airspyhf</flag>
+	<flag name="bladerf">support bladerf</flag>
+	<flag name="filesource">support file source</flag>
+	<flag name="hackrf">support hackrf</flag>
+	<flag name="limesdr">support limesdr</flag>
+	<flag name="sddc">[UNFINISHED] support sddc</flag>
+	<flag name="rtlsdr">support rtlsdr</flag>
+	<flag name="rtltcp">support rtltcp</flag>
+	<flag name="sdrplay">support sdrpay</flag>
+	<flag name="soapysdr">support soapysdr</flag>
+	<flag name="spyserver">support spyserver</flag>
+	<flag name="plutosdr">support plutosdr</flag>
+
+	<flag name="audiosink">audio output</flag>
+	<flag name="networksink">network output</flag>
+	<flag name="portaudio">portaudio output</flag>
+	<flag name="newportaudio">[BETA] new portaudio output</flag>
+
+	<flag name="falcon9">[NOT WORKING] falcon9 decoder</flag>
+	<flag name="m17">[NOT WORKING] m17 decoder</flag>
+	<flag name="meteordemod">meteor demodulator</flag>
+	<flag name="radio">radio</flag>
+	<flag name="weathersat">[UNFINISHED] weather satellite decoder</flag>
+
+	<flag name="discord">discord status integration</flag>
+	<flag name="frecuencymanager">frecuency manager</flag>
+	<flag name="recorder">data recorder</flag>
+	<flag name="rigctl">support rigctl server</flag>
+</use>
+	<upstream>
+		<remote-id type="github">AlexandreRouma/SDRPlusPlus</remote-id>
+	</upstream>
+</pkgmetadata>
