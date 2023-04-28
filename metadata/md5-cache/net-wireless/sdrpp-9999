@@ -1,0 +1,13 @@
+BDEPEND=sys-devel/make >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=sci-libs/fftw media-libs/glfw media-libs/glew sci-libs/volk airspy? ( net-wireless/airspy ) airspyhf? ( net-wireless/airspyhf ) bladerf? ( net-wireless/bladerf ) hackrf? ( net-libs/libhackrf ) limesdr? ( net-wireless/limesuite ) rtlsdr? ( net-wireless/rtl-sdr ) soapysdr? ( net-wireless/soapysdr ) audiosink? ( media-libs/rtaudio ) portaudio? ( media-libs/portaudio ) plutosdr? ( net-libs/libiio net-libs/libad9361-iio )
+DESCRIPTION=a cross-platform SDR software with the aim of being bloat free and simple to use
+EAPI=8
+HOMEPAGE=https://github.com/AlexandreRouma/SDRPlusPlus
+INHERIT=cmake git-r3
+IUSE=+audiosink +rtlsdr soapysdr hackrf airspy airspyhf plutosdr discord portaudio bladerf limesdr spyserver
+LICENSE=GPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	7fb5980de96325cbab639f5b2187357c	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=d0d77e3487ddc12f941f884ffdd29a1e
